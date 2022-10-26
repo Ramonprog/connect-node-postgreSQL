@@ -21,7 +21,6 @@ const showCompanyBranch = async (req, res) =>{
         console.log(error.message)
     }
 }
-
 module.exports = {
     showCompanies,
     showCompanyBranch
